@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 3.956 sec <<< FAILURE! - in runner.TestRunner
-Given I am on the login page(Scenario: Verify login functionality using valid crexentials)  Time elapsed: 0.005 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at stepDefinition.LoginTest.i_am_on_the_login_page(LoginTest.java:18)
-	at ✽.Given I am on the login page(feature/login.feature:7)
-
-Scenario: Verify login functionality using valid crexentials  Time elapsed: 0.009 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at stepDefinition.LoginTest.i_am_on_the_login_page(LoginTest.java:18)
-	at ✽.Given I am on the login page(feature/login.feature:7)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.296 sec - in runner.TestRunner

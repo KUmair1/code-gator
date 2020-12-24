@@ -49,32 +49,35 @@ formatter.match({
   "location": "LoginTest.i_am_on_the_login_page()"
 });
 formatter.result({
-  "duration": 268434397,
-  "error_message": "java.lang.Error: Unresolved compilation problem: \n\tSyntax error, insert \";\" to complete BlockStatements\n\n\tat stepDefinition.LoginTest.i_am_on_the_login_page(LoginTest.java:16)\n\tat ✽.Given I am on the login page(feature/login.feature:7)\n",
-  "status": "failed"
+  "duration": 4034294789,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_entered_valid_username()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 240919239,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_entered_Valid_password()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 59325726,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_click_the_login_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 894042906,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.i_should_see_the_dashboard()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 646818,
+  "status": "passed"
 });
 });
